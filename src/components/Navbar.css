@@ -1,0 +1,206 @@
+.navbar {
+  width: 100%;
+  max-width: 1296px; /* Use relative width instead of fixed width */
+  height: auto; /* Use auto height instead of fixed height */
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navmenu {
+  flex: 1;
+}
+
+.nav-buttons {
+  flex: 1;
+}
+
+.logo {
+  width: auto; /* Use auto width instead of fixed width */
+  height: auto; /* Use auto height instead of fixed height */
+  max-width: 139px; /* Use max-width to limit the image size */
+  max-height: 50px; /* Use max-height to limit the image size */
+}
+
+.logospace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.how-to-use a,
+.pricing a,
+.contact a,
+.about a {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Google Sans", sans-serif; /* Use font-family instead of font */
+  font-weight: bold; /* Use font-weight instead of font */
+  font-size: 18.85px; /* Use font-size instead of font */
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: calc(100% / 3);
+  position: relative;
+  gap: 20px;
+}
+
+.signup-button {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 179, 228, 1) 0%,
+    rgba(3, 199, 199, 1) 100%
+  );
+  border-radius: 23.57px;
+  padding: 8px 23px 8px 23px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 80px;
+}
+.login-button {
+  border-radius: 23.57px;
+  padding: 8px 23px 8px 23px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 80px;
+}
+
+.sign-up a {
+  color: #121212;
+  text-align: left;
+  font-family: "Google Sans", sans-serif; /* Use font-family instead of font */
+  font-weight: bold; /* Use font-weight instead of font */
+  font-size: 19px; /* Use font-size instead of font */
+  text-decoration: none;
+}
+
+.login a {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Google Sans", sans-serif; /* Use font-family instead of font */
+  font-weight: bold; /* Use font-weight instead of font */
+  font-size: 19px; /* Use font-size instead of font */
+  position: relative;
+  text-decoration: none;
+}
+.navmenu-mobile{
+  display: none;
+}
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: #09091D;
+  }
+
+  .navmenu {
+    display: none; /* Hide the nav menu on smaller screens */
+  }
+
+  .nav-buttons {
+    display: none;
+}
+
+  .nav-buttons-mobile {
+      order: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  .logospace{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .hamburger {
+    display: flex; /* Show the hamburger icon on smaller screens */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .hamburger.open span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg); /* Rotate the first span to form a cross */
+  }
+
+  .hamburger.open span:nth-child(2) {
+    opacity: 0; /* Hide the second span */
+  }
+
+  .hamburger.open span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg); /* Rotate the third span to form a cross */
+  }
+
+  .login-button a {
+    color: white;
+  }
+
+  .navmenu-mobile {
+    display: flex; /* Show the nav menu items on smaller screens */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  .nav-link{
+    color: #ffffff;
+  text-align: left;
+  font-family: "Google Sans", sans-serif; /* Use font-family instead of font */
+  font-weight: bold; /* Use font-weight instead of font */
+  font-size: 18.85px; /* Use font-size instead of font */
+  position: relative;
+  text-decoration: none;
+  }
+}

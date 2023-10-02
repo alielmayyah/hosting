@@ -1,0 +1,75 @@
+.comingsoon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.imageanimation {
+    height: 250px;
+    animation: color1 5s  ease-in-out forwards infinite;
+   
+}
+@keyframes color1{
+    0%{
+    opacity:0;}
+    50%{}
+    100%{}
+}
+.comingsoontext{
+    font-size:50px;
+    /* Use a linear gradient background for the text */
+    background: linear-gradient(
+      90deg,
+      rgba(2, 179, 228, 1) 0%,
+      rgba(3, 199, 199, 1) 100%
+    );
+    /* Use a background clip to apply the gradient only to the text */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: raleway;
+    animation: color1 5s  ease-in-out forwards infinite;
+}
+.bar{
+    height: 20px;
+    width:500px;
+    margin-top: 20px;
+    /* Use a linear gradient background for the bar */
+    background: linear-gradient(
+      90deg,
+      rgba(2, 179, 228, 1) 0%,
+      rgba(3, 199, 199, 1) 100%
+    );
+    border:linear-gradient(
+        90deg,
+        rgba(2, 179, 228, 1) 0%,
+        rgba(3, 199, 199, 1) 100%
+      ) 2px solid;
+  
+}
+.loading{
+    height: 20px;
+    width:300px;
+    background-color: #1f154f;
+    animation: loading 5s infinite linear;  
+  
+}
+@keyframes loading{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width:25%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
+};
