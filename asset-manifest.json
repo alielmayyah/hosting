@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hosting/static/css/main.9288b0d4.css",
+    "main.css": "/hosting/static/css/main.a52aa32d.css",
     "main.js": "/hosting/static/js/main.df951f6c.js",
     "static/js/872.a44199d4.chunk.js": "/hosting/static/js/872.a44199d4.chunk.js",
     "static/js/227.2344301c.chunk.js": "/hosting/static/js/227.2344301c.chunk.js",
@@ -8,12 +8,13 @@
     "static/js/232.0996b825.chunk.js": "/hosting/static/js/232.0996b825.chunk.js",
     "static/js/237.12cf844f.chunk.js": "/hosting/static/js/237.12cf844f.chunk.js",
     "static/js/787.436daf27.chunk.js": "/hosting/static/js/787.436daf27.chunk.js",
+    "static/media/landing.png": "/hosting/static/media/landing.f99d38e25b0f080c0e18.png",
     "static/media/Screen.png": "/hosting/static/media/Screen.6b68ca5f3bbabbba33d6.png",
     "static/media/imma white web.png": "/hosting/static/media/imma white web.f70e05535969d9117ac2.png",
     "static/media/Macbook M2 Air Space Gray.png": "/hosting/static/media/Macbook M2 Air Space Gray.74a5e5e9d918f37608b6.png",
     "static/media/Vector.svg": "/hosting/static/media/Vector.baa585992a296d4beed5f617a6600bb7.svg",
     "index.html": "/hosting/index.html",
-    "main.9288b0d4.css.map": "/hosting/static/css/main.9288b0d4.css.map",
+    "main.a52aa32d.css.map": "/hosting/static/css/main.a52aa32d.css.map",
     "main.df951f6c.js.map": "/hosting/static/js/main.df951f6c.js.map",
     "872.a44199d4.chunk.js.map": "/hosting/static/js/872.a44199d4.chunk.js.map",
     "227.2344301c.chunk.js.map": "/hosting/static/js/227.2344301c.chunk.js.map",
@@ -23,7 +24,7 @@
     "787.436daf27.chunk.js.map": "/hosting/static/js/787.436daf27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9288b0d4.css",
+    "static/css/main.a52aa32d.css",
     "static/js/main.df951f6c.js"
   ]
 }
